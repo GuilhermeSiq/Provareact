@@ -1,0 +1,23 @@
+Consultar Todos  get /vilao
+
+response {
+    todos os vilões
+}
+
+Adicionar um vilão   post /vilao
+
+request{
+    {
+    "nome": "",
+    "maldades": "",
+    "poderes": true or false
+}
+
+response{
+    {
+  "nome": "",
+  "maldades": "",
+  "poderes": true or false,
+  "id": ?
+}
+}
