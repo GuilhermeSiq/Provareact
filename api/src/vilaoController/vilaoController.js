@@ -10,11 +10,9 @@ server.post('/vilao', async (req, resp) => {
         throw new Error('Nome do vilão obrigatório')
     }
     if(!vilao.maldades){
-        throw new Error('Maldades do vião obrigatória')
+        throw new Error('Maldades do vilão obrigatória')
     }
-    if(!vilao.poderes){
-        throw new Error('Poderes do vilão obrigatórios')
-    }
+   
     const inserirVilao = await AdicionarVilao(vilao);
     resp.send(inserirVilao)
     } catch (err) {

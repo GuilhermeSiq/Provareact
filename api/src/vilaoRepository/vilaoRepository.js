@@ -17,7 +17,7 @@ export async function ListarTodos(){
     select  id_vilao   	 'id',
 		nm_vilao    	 'nome',
 		ds_maldades 	 'maldades',
-        bt_super_poderes 'super poderes'
+        bt_super_poderes 'poderes'
         from tb_vilao;
     `
     const [linhas] = await con.query(comando);
