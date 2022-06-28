@@ -34,11 +34,11 @@ export default function Cadastrar(){
                 <input type='text' value={nome} onChange={e => setNome(e.target.value)}></input>
             </div>
             <div>
-                <label>Maldades do vilão</label> &nbsp;
+                <label>Maldades</label> &nbsp;
                 <input type='text' value={maldades} onChange={e => setMaldades(e.target.value)}></input>
             </div>
             <div>
-                <label>Tem poderes?</label> &nbsp;
+                <label>Tem poder ?</label> &nbsp;
                 <input type='checkbox' checked={poderes} onChange={e => setPoderes(e.target.checked)}></input>
             </div>
             <div>
